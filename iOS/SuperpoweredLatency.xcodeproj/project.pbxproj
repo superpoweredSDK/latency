@@ -123,7 +123,7 @@
 				TargetAttributes = {
 					1B516FF41A81006200B17D41 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = Y7J2X6FMKN;
+						DevelopmentTeam = Z674RYS8AW;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -288,10 +288,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y7J2X6FMKN;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z674RYS8AW;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperpoweredLatency;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -304,10 +307,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y7J2X6FMKN;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z674RYS8AW;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperpoweredLatency;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE = "";
@@ -369,10 +375,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: iMect Szolgaltato Beteti Tarsasag";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y7J2X6FMKN;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z674RYS8AW;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperpoweredLatency;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE = "";
