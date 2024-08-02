@@ -20,6 +20,7 @@
 		1B5170241A81015A00B17D41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5170231A81015A00B17D41 /* AVFoundation.framework */; };
 		1B5170261A81016700B17D41 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5170251A81016700B17D41 /* MediaPlayer.framework */; };
 		1B73E7871A9C6E5400ACFE83 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B73E7861A9C6E5400ACFE83 /* Social.framework */; };
+		6DA77E662C5CF1A6009B33A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA77E652C5CF1A6009B33A6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1B5170251A81016700B17D41 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		1B6990ED1A839EE200FD24DC /* machines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machines.h; sourceTree = "<group>"; };
 		1B73E7861A9C6E5400ACFE83 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6DA77E652C5CF1A6009B33A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				1B5170211A81015700B17D41 /* AudioToolbox.framework */,
 				1B73E7861A9C6E5400ACFE83 /* Social.framework */,
 				1B4F1D851A82419E0062EF66 /* Images.xcassets */,
+				6DA77E652C5CF1A6009B33A6 /* Assets.xcassets */,
 				1B17E9061A972E9000C5A894 /* superpowered.png */,
 				1B3401401A9E2E9E00BCD8A3 /* superpowered@3x.png */,
 				1B17E9071A972E9000C5A894 /* superpowered@2x.png */,
@@ -160,6 +163,7 @@
 				1B17E9091A972E9000C5A894 /* superpowered@2x.png in Resources */,
 				1B3401411A9E2E9E00BCD8A3 /* superpowered@3x.png in Resources */,
 				1B17E9081A972E9000C5A894 /* superpowered.png in Resources */,
+				6DA77E662C5CF1A6009B33A6 /* Assets.xcassets in Resources */,
 				1B4F1D861A82419E0062EF66 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superpowered.SuperpoweredLatency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -314,7 +318,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superpowered.SuperpoweredLatency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -382,7 +386,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imect.latency;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superpowered.SuperpoweredLatency;
 				PRODUCT_NAME = SuperpoweredLatency;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
