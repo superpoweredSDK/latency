@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Clone repo and submodules
-      run: git clone --recurse-submodules https://github.com/${{github.repository}}.git . #--branch ${{env.Branch}}
+      run: git clone --recurse-submodules https://github.com/${{github.repository}}.git . --branch ${{env.Branch}}
 
     - name: Get current date, commit hash and count
       run: |
