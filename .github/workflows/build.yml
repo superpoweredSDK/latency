@@ -25,7 +25,7 @@ jobs:
       run: |
         echo "CommitDate=$(git show -s --date=format:'%Y-%m-%d' --format=%cd)" >> $GITHUB_ENV
         echo "CommitHashShort=$(git rev-parse --short=7 HEAD)" >> $GITHUB_ENV
-        echo "CommitCount=$(git rev-list --count ${{env.Branch}} --)" >> $GITHUB_ENV
+        echo "CommitCount=$(git rev-list --count HEAD)" >> $GITHUB_ENV
     
     - name: set up JDK 17
       uses: actions/setup-java@v3
